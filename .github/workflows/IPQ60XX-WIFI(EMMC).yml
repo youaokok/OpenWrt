@@ -6,8 +6,9 @@ on:
 #    - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt/tree/openwrt-23.05.git
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_BRANCH: master
+ #  REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-6.6-wifi(emmc).config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   DIY_SCRIPT: diy-script.sh
