@@ -6,8 +6,8 @@ on:
  #   - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/youaokok/openwrt-6.x-nss.git
-  REPO_BRANCH: kernel-6.6
+  REPO_URL: https://github.com/youaokok/openwrt-6.git
+  REPO_BRANCH: ipq60xx-devel_nss
   CONFIG_FILE: configs/ipq60xx-wifi(emmc).config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   PATCHES_FILE_2: patches/0005-fix-aria2.patch
