@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/youaokok/openwrt-6.git
-  REPO_BRANCH: youaokok-ipq6.6
+  REPO_BRANCH: ipq60xx-devel_nss
   CONFIG_FILE: configs/ipq60xx-wifi(emmc).config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   PATCHES_FILE_2: patches/0005-fix-aria2.patch
