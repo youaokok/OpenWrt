@@ -3,10 +3,10 @@ name: IPQ60XX-WIFI(EMMC)
 on:
   workflow_dispatch:
 #  schedule:
-#    - cron: 0 19 * * *
+#    - cron: 0 19 * * * https://github.com/King-Of-Knights/openwrt-6.x.git
 
 env:
-  REPO_URL: https://github.com/King-Of-Knights/openwrt-6.x.git
+  REPO_URL: https://github.com/youaokok/openwrt-6
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-wifi(emmc).config
 #   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
