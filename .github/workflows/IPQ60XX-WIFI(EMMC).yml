@@ -3,7 +3,7 @@ name: IPQ60XX-WIFI(EMMC)
 on:
   workflow_dispatch:
 #  schedule:
-    - cron: 0 19 * * * https://github.com/King-Of-Knights/openwrt-6.x.git
+#     - cron: 0 19 * * * https://github.com/King-Of-Knights/openwrt-6.x.git
 
 env:
   REPO_URL: https://github.com/youaokok/openwrt-6
